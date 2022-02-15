@@ -1,0 +1,84 @@
+@media prinit{
+  .screen_only{
+    display:non;
+  }
+}
+
+h1 {
+  background-color:#6495ED
+}
+
+h3 {
+  text-align:left;
+  color:red
+}
+
+.login {
+  background-color: lightgrey;
+}
+
+.intro {
+  background-color:#FFF8DC
+}
+
+.info {
+  background-color:#F8F8FF
+}
+
+#name {
+  font-size:1.5em
+}
+
+#email {
+  font-size:1.5em
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ul.c {
+  list-style-type: upper-roman;
+}
+
+ul.d {
+  background-color:#F8F8FF
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: orange;
+}
+
+.box_table>table {
+  border-width:1px;
+  border-style:solid;
+  border-color:red;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.box_table>table th, .box_table>table td{
+  border: 1px solid purple;
+  padding: 5px;
+  text-align: center;
+}
+
+.box_table>table th {
+  background-color: lightgrey;
+}
+
+img {
+  max-width: 100%
+  height: auto;
+  display: block;
+  magin-left: auto;
+  margin-right: auto;
+}
