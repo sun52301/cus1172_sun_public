@@ -4,18 +4,12 @@
   }
 }
 
-@media screen and (max-width: 700px){
-  .window{
-    max-width:650px;
-  }
-  .wndow-2{
-    max-width:100%;
-  }
+@media screen and (max-width: 768px){
+  [class="col-"]{
+    width: 100%;
+    }
 }
 
-h1 {
-  background-color:#6495ED
-}
 
 h3 {
   text-align:left;
@@ -27,11 +21,7 @@ h3 {
 }
 
 .intro {
-  background-color:#FFF8DC
-}
-
-.info {
-  background-color:#F8F8FF
+  color: green;
 }
 
 #name {
@@ -54,10 +44,6 @@ ul.c {
   list-style-type: upper-roman;
 }
 
-ul.d {
-  background-color:#F8F8FF
-}
-
 a:link {
   color: red;
 }
@@ -69,9 +55,8 @@ a:visited {
 .box_table>table {
   border-width:1px;
   border-style:solid;
-  border-color:red;
   border-collapse: collapse;
-  width: 50%;
+  width: 70%;
 }
 
 .box_table>table th, .box_table>table td{
