@@ -32,6 +32,27 @@ h3 {
   font-size:1.5em
 }
 
+h3 {
+  text-align:left;
+  color:red
+}
+
+.login {
+  background-color: lightgrey;
+}
+
+.intro {
+  color: green;
+}
+
+#name {
+  font-size:1.5em
+}
+
+#email {
+  font-size:1.5em
+}
+
 ul.a {
   list-style-type: circle;
 }
@@ -75,4 +96,11 @@ img {
   display: block;
   magin-left: auto;
   margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 450px
 }
