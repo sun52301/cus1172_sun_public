@@ -1,12 +1,22 @@
-@media prinit{
+@media print{
   .screen_only{
-    display:non;
+    display:none;
   }
 }
 
-h1 {
-  background-color:#6495ED
-}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 h3 {
   text-align:left;
@@ -18,11 +28,7 @@ h3 {
 }
 
 .intro {
-  background-color:#FFF8DC
-}
-
-.info {
-  background-color:#F8F8FF
+  color: green;
 }
 
 #name {
@@ -45,10 +51,6 @@ ul.c {
   list-style-type: upper-roman;
 }
 
-ul.d {
-  background-color:#F8F8FF
-}
-
 a:link {
   color: red;
 }
@@ -60,9 +62,8 @@ a:visited {
 .box_table>table {
   border-width:1px;
   border-style:solid;
-  border-color:red;
   border-collapse: collapse;
-  width: 50%;
+  width: 70%;
 }
 
 .box_table>table th, .box_table>table td{
@@ -81,4 +82,11 @@ img {
   display: block;
   magin-left: auto;
   margin-right: auto;
+}
+
+.center {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 450px
 }
