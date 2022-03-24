@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task List</title>
+    <meta http-equiv="content type" content="text/html;charset=utf-8" </meta>
+    <style>
+      * {
+        margin : 0;
+        padding: 0;
+        outline: none;
+        box-sizing: border-box;
+      }
+      form{
+        margin-top: 30px;
+        width: 300px;
+        position: relative;
+        left: 50%;
+        padding: 10px 30px;
+        border: 1px solid black;
+        transform: translateX(-50%);
+      }
+      .label {
+        font-size: 1.2rem;
+        margin-top: 3px;
+        margin-bottom: 3px;
+      }
+      h1 {
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+      }
+      #add_task{
+        margin-top: 5px;
+        margin-bottom: 3px;
+        padding: 3px 7px;
+      }
+      #tasks{
+        margin: 20px 30px;
+      }
+      #priorities{
+        font-size: 1rem;
+        margin-bottom: 10px;
+      }
+      #priorities div{
+        width: 12px;
+        height: 12px;
+        border-radius: 6px;
+        display: inline-block;
+      }
+      ul {
+        list-style-type: none;
+      }
+      li {
+        font-size: 1.3rem;
+      }
+      li input[type="checkbox"]{
+        margin-right: 10px;
+      }
+      .completed {
+        text-decoration: line-through;
+      }
+      .remove_task {
+        margin-left: 10px;
+        border: none;
+        background: none;
+        font-size: 1.2rem;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Add New Task</h1>
+      <label class="label" for="title">Title </label><br />
+      <input id="title" required></input><br />
+      <label class="label">Priority</label><br />
+      <select>
+        <option value = "low">Low</option>
+        <option value = "medium">Medium</option>
+        <option value = "high">High</option>
+      </select>
+    </br/>
+    <label class="label">Status</label>
+    <div>
+      <input type="radio" id="pending" name="status" value="pending" checked>
+      <label for="pending">Pending</label>
+      <input type="radio" id="completed" name="status" value="completed">
+      <label for="completed">Completed</label>
+    </div>
+    <button id="add_task">Add Task</button>
+    </form>
+    <div id="tasks">
+      <h1>All Tasks</h1>
+      <div id="priorities">
+        <div style="background: red"></div> High Priority
+        <div style="background: orange"></div> Medium Priority
+        <div style="background: green"></div> Low Priority
+      </div>
+      <ul id="all_tasks">
+        <ul>
+        </div>
+        <script src="my_javascript.js"></script>
+
+
+  </body>
+
+</html>
