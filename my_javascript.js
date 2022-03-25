@@ -61,8 +61,8 @@ function RemoveTask(e) {
 }
 function markComplete(e) {
   var id = e.target.parentElement.id;
-  task_array = task_array.map(X => {
-    if(x.title === id) x.status = "completed";
+  task_array = task_array.map(x => {
+    if (x.title === id) x.status = "completed";
     return x;
   })
   create_list();
